@@ -1,0 +1,16 @@
+{
+  "name": "@frenchex/parameter-container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Stephane Erard",
+  "scripts": {
+    "test": "node tests/tests.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "deepmerge": "^0.2.10",
+    "object-walker": "0.0.4",
+    "underscore": "^1.8.3"
+  }
+}
