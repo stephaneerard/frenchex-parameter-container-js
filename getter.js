@@ -134,7 +134,7 @@ function high_walk(object, key, config) {
  * @param isArray marks the difference between . and [] when generating the path
  * @param key root key of the walking, to allow recursive call
  * @param config Config object
- * @param cb Function(it_key_path, value) called when we get a string or another datatype
+ * @param cb Function(it_key_path, value) called on each own property of object
  */
 function low_walker(object, isArray, key, config, cb) {
     walker.walkObject(object, function (keys, value) {
