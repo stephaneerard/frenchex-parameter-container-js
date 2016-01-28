@@ -1,11 +1,14 @@
 {
-  "name": "@frenchex/parameter-container",
-  "version": "1.0.0",
+  "name": "frenchex-parameters-container",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "author": "Stephane Erard",
   "scripts": {
     "test": "node tests/tests.js"
+  },
+  "engines": {
+    "node": ">=5.4"
   },
   "license": "ISC",
   "dependencies": {
