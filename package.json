@@ -1,11 +1,15 @@
 {
   "name": "frenchex-parameters-container",
   "version": "1.0.1",
-  "description": "",
+  "description": "Wrapped JS object delivering resolved variable",
   "main": "index.js",
   "author": "Stephane Erard",
   "scripts": {
     "test": "node tests/tests.js"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npmjs.org"
   },
   "engines": {
     "node": ">=5.4"
